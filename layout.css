@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    background-color: #494ca2;
+   
+    font-size: large;
+    font-family: Verdana;
+    text-align: center;
+  }
+
+  .icon_Set
+  {
+    background-color: #f2dadb;
+
+    text-align: center;
+  }
+
+  .column 
+  {
+    float: left;
+    width: 47.3%;
+    padding: 10px;
+    height: 745px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #8186d5;
+  }
+  
+  .row:after
+   {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .align_Phrase 
+{
+    font-size: Large;
+    font-family: Montserrat;
+    margin-block: auto;
+}
+
+.border_rad
+{
+  border-radius: 5px;
+}
+
+.align_Center
+{
+  text-align: center;
+}
+
+.bg
+{
+    position:relative;
+    z-index: 0;
+   
+}
+.imag
+{
+    position: absolute;
+    z-index: 2;
+    transform: translate(-180%, -0%);
+    -ms-transform: translate(-50%, -50%);
+    width: 300px;
+  
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(37, 167, 199, 0.932);
+    transition: 0.3s;
+    width: 80%;
+    text-align: center;
+    height: 30%;
+    border-radius: 10px;
+    
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 16px;
+    background-color: #494ca2;
+    height: 20%; 
+    border-radius: 20%;
+    position: relative;
+    width: 100%;
+
+  }
+  a:link {
+    text-decoration: none;
+    color: #c6cbef;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: #c6cbef;
+    
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #c6cbef;
+  }
+  
+  a:active {
+    text-decoration: none;
+    color: #c6cbef;
+  }
+
+  .textdesign
+  {
+    color: #c6cbef;
+  }
+
+  .column-inside
+  {
+      width: 45%;
+      position: relative;
+      background-color: #8186d5;
+      height:730px ;
+      float: left;  
+  }
+
+  .picture-background
+  {
+      width: 100%;
+      position: relative;
+      background-color: #494ca2;
+      height: 70%;
+      border-radius: 20px;
+
+  }
+
+  .icon-background
+  {
+      width: 100%;
+      position: relative;
+      background-color: #494ca2;
+      height: 25%;
+      border-radius: 20px;
+
+  }
